@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Styled Card</title>
+    <style>
+        body {
+    height: 100vh;
+    margin-top: 250px;
+    margin-left: 30%;
+    background-color: #f0f0f0;
+}
+
+.card {
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: white;
+    padding: 2rem; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    outline: 3px solid rgba(255, 255, 255, 0.6); 
+    max-width: 300px; 
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 1rem; 
+}
+
+button {
+    padding: 0.5rem 1rem; 
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.2); 
+    color: white;
+    
+}
+#gradi{
+     margin-left: 50px;
+    height: 150px;
+    width: 150px;
+    outline: 25px double black ;
+    border: solid black;
+    background-color: aliceblue;
+    background-image: conic-gradient(white 0deg, white 90deg, blue 90deg, blue 180deg, white 180deg, white 270deg, blue 270deg, blue 360deg);
+    border-radius: 50%;
+}
+
+#grad1 {
+  height: 150px;
+  width: 200px;
+  background-image: radial-gradient(red 5%, green 15%, blue 60%);
+  
+}
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h2>Gradient Card</h2>
+        <p>This card demonstrates the use of outline, box-shadow, and linear gradient in CSS.</p>
+        <button>Click Me</button>
+    </div>
+    <h1>Conic Gradient-pie chart</h1>
+    <div id="gradi"></div>
+    <h3 style="margin: 50px; text-shadow: -5px 2px 1px red;">Radial Gradient - Differently Spaced Color Stops</h3>
+<div id="grad1"></div>
+</body>
+</html>
